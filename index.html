@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA — бесплатный лаунчер для Minecraft</title>
+    <meta name="description" content="NOVA — бесплатный лаунчер Minecraft с открытым исходным кодом. Запускай любые версии и моды в один клик.">
+    <meta name="theme-color" content="#0c0e0b">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="NOVA">
+                <img src="logo.png" alt="" width="36" height="36">
+                <span>NOVA</span>
+            </a>
+            <nav class="nav" aria-label="Основное меню">
+                <a href="#features">Возможности</a>
+                <a href="#start">Как начать</a>
+                <a href="https://github.com/top9899/nova-launcher-file" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://github.com/top9899/nova-launcher-file/releases/latest" class="nav-cta" target="_blank" rel="noopener">Скачать</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="badge"><span class="dot"></span> Бесплатно и с открытым кодом</p>
+                    <h1>Твоя следующая история <span class="accent">начинается здесь.</span></h1>
+                    <p class="lead">Запускай любые версии Minecraft в один клик. Ставь моды, выбирай загрузчик и играй — без подписок, рекламы и лишних шагов.</p>
+                    <div class="hero-actions" id="download">
+                        <a href="https://github.com/top9899/nova-launcher-file/releases/latest" class="btn btn-primary" target="_blank" rel="noopener">Скачать NOVA</a>
+                        <a href="https://github.com/top9899/nova-launcher-file" target="_blank" rel="noopener" class="btn btn-ghost">Исходный код</a>
+                    </div>
+                    <p class="os-support">Для Windows x64 · Версия 1.0.0 · Русский интерфейс</p>
+                </div>
+
+                <div class="hero-shot">
+                    <div class="window">
+                        <div class="window-bar">
+                            <img src="logo.png" alt="" width="14" height="14">
+                            <span>NOVA — Minecraft Launcher</span>
+                        </div>
+                        <img class="window-img" src="launcher.png" alt="Главный экран лаунчера NOVA: версия Minecraft 26.3, кнопка «Играть» и профиль игрока" width="1345" height="842">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Всё для игры — в одном окне</h2>
+                <p class="section-sub">Лаунчер занимается файлами и настройками, а тебе остаётся выбрать версию и нажать «Играть».</p>
+
+                <div class="bento">
+                    <article class="tile tile-wide">
+                        <h3>Любая версия — в один клик</h3>
+                        <p>Каталог версий загружается сам. Выбери релиз, снапшот или старую классику — NOVA скачает нужные файлы при первом запуске и сохранит все твои сборки в разделе «Мои версии».</p>
+                        <div class="chips">
+                            <span class="chip">Release</span>
+                            <span class="chip">Snapshot</span>
+                            <span class="chip">Java Edition</span>
+                            <span class="chip">Vanilla</span>
+                            <span class="chip">Fabric</span>
+                            <span class="chip">Forge</span>
+                        </div>
+                    </article>
+
+                    <article class="tile">
+                        <h3>Vanilla, Fabric и Forge</h3>
+                        <p>Выбирай загрузчик перед запуском. Для Fabric NOVA сама скачает Fabric API.</p>
+                    </article>
+
+                    <article class="tile">
+                        <h3>100% бесплатно</h3>
+                        <p>Без подписок, ограничений скорости и платных функций. Всё доступно сразу.</p>
+                    </article>
+
+                    <article class="tile">
+                        <h3>Открытый код</h3>
+                        <p>Исходники лежат на GitHub — любой может проверить, что делает лаунчер.</p>
+                    </article>
+
+                    <article class="tile">
+                        <h3>Моды с Modrinth</h3>
+                        <p>Ищи и ставь моды прямо в лаунчере: NOVA учтёт версию игры и загрузчик и добавит нужные зависимости. А раздел «Разработка» поможет создать свой Fabric-мод.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="start" class="section section-alt">
+            <div class="container">
+                <h2>Как начать</h2>
+                <ol class="steps">
+                    <li>
+                        <span class="step-num">1</span>
+                        <h3>Скачай и установи</h3>
+                        <p>Установщик для Windows занимает пару минут. Регистрация не нужна. Java нужна подходящая под версию игры: NOVA проверит её, но сама не установит.</p>
+                    </li>
+                    <li>
+                        <span class="step-num">2</span>
+                        <h3>Введи никнейм</h3>
+                        <p>Для офлайн-режима достаточно ника. Для онлайн-серверов может понадобиться аккаунт Microsoft.</p>
+                    </li>
+                    <li>
+                        <span class="step-num">3</span>
+                        <h3>Нажми «Играть»</h3>
+                        <p>Первый запуск версии займёт пару минут — NOVA скачает игровые файлы.</p>
+                    </li>
+                </ol>
+
+                <div class="cta">
+                    <div>
+                        <h2>Твой мир ждёт</h2>
+                        <p>Скачай NOVA и начни новое приключение.</p>
+                    </div>
+                    <a href="https://github.com/top9899/nova-launcher-file/releases/latest" class="btn btn-primary" target="_blank" rel="noopener">Скачать бесплатно</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 NOVA Launcher. Автор: Edgar. Сделано с любовью для игроков в Minecraft.</p>
+            <p class="disclaimer">NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
